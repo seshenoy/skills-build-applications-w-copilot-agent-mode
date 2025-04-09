@@ -25,7 +25,11 @@ SECRET_KEY = "django-insecure-gvk_7obds0qa6bfnhj+&c@_+jwq0b(xdx5h&g2!@0efxx-lx!(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = [
+    "octofit_tracker-8000.app.github.dev",
+    "localhost",
+    "127.0.0.1"
+]
 
 
 # Application definition
